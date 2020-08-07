@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #1C9C94;
+  color: lightestNavy;
   text-decoration: none;
 }
 
@@ -30,9 +30,9 @@ header, main, footer {
 }
 
 header {
-  padding: 2em;
+  padding: 1em;
   text-align: center;
-  background-image: url('http://w4.wallls.com/uploads/original/201807/10/wallls.com_189525.png');
+  background-image: url('./img/background.png');
   background-size: cover;
   background-position: fixed;
   color: white;
@@ -50,7 +50,7 @@ header img {
 
 h1 {
   text-transform: uppercase;
-  margin: 1em 0;
+  margin: 6em 0;
 }
 
 h3 {
@@ -124,7 +124,7 @@ b.fab {
 .skills .column ul > li:before {
   content: "►";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #FF6F61;
 }
 
 .school, .job-title {
@@ -132,14 +132,14 @@ b.fab {
 }
 
 .school span, .job-title span {
-  color: #889499;
+  color: #FF6F61;
   text-decoration: underline;
 }
 
 ul.job-description li:before{
   content: "✔";
   padding-right: 0.5em;
-  color: #509e98;
+  color: #FF6F61;
 }
 
 footer {
